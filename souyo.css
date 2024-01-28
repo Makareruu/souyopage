@@ -26,10 +26,9 @@
 }
 .biodata {
     padding-top: 50px;
-    width: 1000px;
-    margin-left: 250px;
+    width: 1500px;
     height: 3300px;
-    background-color: rgba(7, 255, 48, 0);
+    background-color: rgba(0, 255, 42, 0);
 }
 .fullbody {
     background-color: rgba(255, 255, 255, 0);
@@ -60,7 +59,8 @@ ul li {
 }
 .biodata p {
     font-weight: bold;
-    padding-left: 60px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 .biodata span {
 font-weight: lighter;
@@ -71,8 +71,8 @@ font-weight: lighter;
     text-align: center;
     font-size: 50px;
     background-color: #B2A59B ;
-    margin-left: -100px;
-    margin-right: -100px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 70px;
 }
 .history {
