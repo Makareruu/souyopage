@@ -1,0 +1,227 @@
+
+.headerpic img {
+    height: 1200px;
+    width: 1500px;
+    padding-bottom: 0%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    background-color:#C7B7A3 ;
+    color: #561C24;
+}
+.info {
+    height: auto;
+    font-size: 60px ;
+    padding-bottom: 70px;
+    width: 1500px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.info h2 {
+    font-weight: bolder;
+    padding-bottom:75px;
+    padding-top: 200px;
+    text-align: left;
+    color: #561C24;
+    background-color: transparent;
+}
+.info p {
+    font-size: 50px;
+    line-height: 85px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-indent: 60px;
+    background-color: transparent;
+}
+.about {
+    height: auto;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.about h2 {
+    text-align: center;
+}
+.ann h3 {
+    font-size: 50px ;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    font-weight: lighter;
+    width: 1500px;
+    text-align: left;
+}
+
+.headerpic {
+    background-image: url(main.png);
+    height: 1800px;
+    width: 1500px;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.281);
+    height: 250px;
+    width: 1500px;
+}
+.welcome {
+    background-color: rgba(255, 255, 255, 0);
+    height: 700px;
+    width: 1500px;
+}
+.welcome h1 {
+    text-align: center;
+    font-size: 110px;
+    background-color: rgba(255, 0, 0, 0);
+    padding-top: 175px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: white;
+    line-height: 190px;
+}
+.welcome span {
+    background-color: transparent;
+    font-weight: 600;
+
+}
+.head h2 {
+    font-size: 80px;
+    font-weight: lighter;
+    margin-left: 50px;
+    background-color: transparent;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+}
+.head {
+    width: 1500px;
+    height: 250px;
+    background-color: rgb(233, 233, 233);
+}
+.head span {
+    font-size: 150px;
+}
+.rules ul {
+    font-size: 50px;
+    line-height: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: transparent;
+    list-style: decimal;
+    list-style-position: inside;
+    margin-bottom: 200px;
+}
+.rules h2 {
+    text-align: center;
+}
+.rules h3 {
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.rules {
+    background-color: #fc002200;
+    width: 1500px;
+}
+.rules h4 {
+    text-indent: 50px;
+
+}
+.rules span {
+    color: rgb(197, 0, 0);
+    font-weight: bold;
+}
+.min span {
+    color: cadetblue;
+}
+.apacoba span {
+    color: rgb(119, 0, 0);
+}
+.welcome span {
+    color:rgb(255, 255, 255) ;
+}
+.uniform img {
+    max-width: 1000px;
+    margin-left : 250px ;
+}
+.uniform h2 {
+    text-align: center;
+}
+.uniform h3 {
+    text-align: center;
+}
+.uniform {
+    font-size: 70px;
+}
+.uniform p {
+    font-size: 50px;
+    line-height: 85px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.admin button {
+    width: 400px;
+    height: 100px;
+    font-size: 50px;
+    margin-left: 80px;
+    background-color: #6D2932;
+    border: none;
+}
+.admin a {
+    background-color: transparent;
+    color: #C7B7A3;
+    text-decoration: none;
+
+}
+.admin h2 {
+    text-align: center;
+}
+.admin button:hover {
+    background-color: #6d293250;
+    cursor: pointer;
+}
+.dd {
+    width: 1500px ;
+    background-color: #C7B7A3;
+    font-size: 50px;
+    height: 120px;
+}
+.dd ul {
+    list-style: none ;
+}
+.dd ul li {
+    float: left;
+    width: 400px;
+    padding-left: 50px;
+    padding-top :30px ;
+    padding-bottom : 30px ;
+}
+.submenu {
+    display: none;
+    margin-left : 200px ;
+}
+.dd ul li:hover .submenu {
+    display: block;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+.sub-sub-menu {
+    display: none;
+}
+.dd ul li a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.dd ul li:hover {
+    background-color: #884851;
+}
+.submenu ul li:hover .sub-sub-menu {
+    position:absolute ;
+    display: block;
+    width: 400px;
+    height: auto;
+    margin-left: 200px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
