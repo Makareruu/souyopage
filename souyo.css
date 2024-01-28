@@ -256,3 +256,7 @@ font-weight: lighter;
     cursor: pointer;
     background-color: transparent;
 }
+.dd ul li p:hover {
+    background-color: transparent;
+    transform: none;
+}
