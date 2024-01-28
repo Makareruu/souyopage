@@ -1,6 +1,5 @@
 .header h3 {
     font-weight: lighter;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 70px;
     padding-top: 20px;
     text-align: center;
@@ -13,27 +12,17 @@
 }
 * {
     margin: 0;
-    background-color: #2D4059;
-    color: #ffdb7a;
+    background-color: #607274;
+    color: #FAEED1;
 }
 
 .biodata p {
     font-size: 45px;
-    font-family: 'Courier New', Courier, monospace;
 }
 .body {
     width: 1500px;
     height: 7000px;
     background-color: rgba(255, 0, 0, 0) ;
-}
-.name span {
-    padding-left: 170px ;
-}
-.age span {
-    padding-left: 195px;
-}
-.height span {
-    padding-left: 110px;
 }
 .biodata {
     padding-top: 50px;
@@ -69,16 +58,6 @@ ul li {
     float: none;
     display: list-item;
 }
-.gender span {
-    padding-left: 110px;
-}
-.residence span {
-    padding-left: 30px ;
-}
-.status span {
-    padding-left: 220px;
-}
-
 .biodata p {
     font-weight: bold;
     padding-left: 60px;
@@ -91,8 +70,7 @@ font-weight: lighter;
     padding-bottom: 50px;
     text-align: center;
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #EA5455 ;
+    background-color: #B2A59B ;
     margin-left: -100px;
     margin-right: -100px;
     margin-top: 70px;
@@ -102,7 +80,6 @@ font-weight: lighter;
 }
 .history h5 {
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 130px;
     margin-left: 100px;
     margin-bottom: 60px;
@@ -118,7 +95,6 @@ font-weight: lighter;
 }
 .personality h5 {
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 130px;
     margin-left: 100px;
     margin-bottom: 60px;
@@ -133,7 +109,6 @@ font-weight: lighter;
 }
 .appearance h5 {
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 130px;
     margin-left: 100px;
     margin-bottom: 60px;
@@ -148,7 +123,6 @@ font-weight: lighter;
 }
 .relationship h5 {
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 130px;
     margin-left: 100px;
     margin-bottom: 60px;
@@ -163,11 +137,10 @@ font-weight: lighter;
 }
 .relationship h6 {
     font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
     margin-top: 130px;
     margin-left: 0px;
     margin-bottom: 60px;
-    background-color: #EA5455 ;
+    background-color: #B2A59B ;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -259,4 +232,29 @@ font-weight: lighter;
 .dd ul li p:hover {
     background-color: transparent;
     transform: none;
+}
+.birthname span {
+    padding-left: 50px;
+}
+.gender span {
+    padding-left: 130px;
+}
+.residence span {
+    padding-left: 80px ;
+}
+.status span {
+    padding-left: 220px;
+}
+.name span {
+    padding-left: 170px ;
+}
+.age span {
+    padding-left: 205px;
+}
+.height span {
+    padding-left: 110px;
+}
+.marital span {
+    padding-left: 60px;
+
 }
