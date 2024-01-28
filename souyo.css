@@ -236,7 +236,7 @@ font-weight: lighter;
 .titik {
     background-color: #ff909f00;
     display: list-item;
-    margin-left: 310px;
+    margin-left: 360px;
     position: absolute;
     margin-top: -80px;
     list-style: none;
@@ -244,7 +244,7 @@ font-weight: lighter;
 .qw {
     background-color: #88485000;
     display: list-item;
-    margin-left: 360px;
+    margin-left: 390px;
     margin-top: -80px;
     list-style: none;
 }
