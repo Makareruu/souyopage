@@ -236,14 +236,14 @@ font-weight: lighter;
 .titik {
     background-color: #ff909f00;
     display: flex;
-    margin-left: 280px;
+    margin-left: 310px;
     position: absolute;
     margin-top: -80px;
 }
 .qw {
     background-color: #88485000;
     display: flex;
-    margin-left: 330px;
+    margin-left: 360px;
     position: absolute;
     margin-top: -80px;
 }
