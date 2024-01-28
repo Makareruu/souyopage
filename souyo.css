@@ -242,8 +242,8 @@ font-weight: lighter;
 }
 .qw {
     background-color: #88485000;
-    display: flex;
-    margin-left: 430px;
-    position: absolute;
+    display: list-item;
+    margin-left: 360px;
     margin-top: -80px;
+    list-style: none;
 }
