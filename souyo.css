@@ -60,7 +60,7 @@ ul li {
 .biodata p {
     font-weight: bold;
     padding-left: 250px;
-    padding-right: 100px;
+    padding-right: 250px;
 }
 .biodata span {
 font-weight: lighter;
@@ -235,10 +235,11 @@ font-weight: lighter;
 }
 .titik {
     background-color: #ff909f00;
-    display: flex;
-    margin-left: 400px;
+    display: list-item;
+    margin-left: 310px;
     position: absolute;
     margin-top: -80px;
+    list-style: none;
 }
 .qw {
     background-color: #88485000;
