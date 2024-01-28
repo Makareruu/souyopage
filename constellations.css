@@ -142,18 +142,23 @@
 }
 .uniform h2 {
     text-align: center;
+    background-color: transparent;
 }
 .uniform h3 {
     text-align: center;
+    background-color: transparent;
 }
 .uniform {
     font-size: 70px;
+    width: 1500px;
 }
 .uniform p {
     font-size: 50px;
     line-height: 85px;
     margin-left: 100px;
     margin-right: 100px;
+    background-color: transparent;
+    text-indent: 70px;
 }
 .admin button {
     width: 400px;
