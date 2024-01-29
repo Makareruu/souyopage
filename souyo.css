@@ -208,6 +208,12 @@ box-shadow: 5px 10px;
     color: #FAEED1;
     padding-top: 100px;
 }
+.heder ul li p{
+    font-size: 45px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #FAEED1;
+}
 .heder {
     background-color: #607274;
     height: 150px;
