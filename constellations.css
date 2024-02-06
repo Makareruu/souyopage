@@ -179,52 +179,94 @@
     background-color: #6d293250;
     cursor: pointer;
 }
-.dd {
-    width: 1500px ;
-    background-color: #C7B7A3;
-    font-size: 50px;
-    height: 120px;
-}
-.dd ul {
-    list-style: none ;
-}
-.dd ul li {
-    float: left;
-    width: 400px;
-    padding-left: 50px;
-    padding-top :30px ;
-    padding-bottom : 30px ;
-}
-.submenu {
+    .anying {
+        background-color: #561C24 ;
+        width: 1500px;
+        height: 150px;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .subheder {
     display: none;
-    margin-left : 200px ;
-}
-.dd ul li:hover .submenu {
-    display: block;
     width: 400px;
-    height: auto;
-    position: absolute;
-    border: 1px solid;
-    padding: 10px;
+    height: 600px;
     box-shadow: 5px 10px;
-}
-.sub-sub-menu {
-    display: none;
-}
-.dd ul li a {
-    text-decoration: none;
-    background-color: transparent;
-}
-.dd ul li:hover {
-    background-color: #884851;
-}
-.submenu ul li:hover .sub-sub-menu {
-    position:absolute ;
-    display: block;
-    width: 400px;
-    height: auto;
-    margin-left: 200px;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px;
-}
+    }
+    .subsubheder {
+        display: none;
+        box-shadow: 5px 10px;
+    }
+    .heder button{
+        width: 400px;
+        height: 150px;
+        background-color: #561C24;
+        border: none;
+        border-bottom: #faeed183 4px solid;
+    }
+    .heder ul li a{
+        font-size: 45px;
+        background-color: transparent;
+        text-decoration: none;
+        color: #FAEED1;
+        padding-top: 100px;
+    }
+    .heder ul li p{
+        font-size: 45px;
+        background-color: transparent;
+        text-decoration: none;
+        color: #FAEED1;
+    }
+    .heder {
+        background-color: #561C24;
+        height: 150px;
+        margin-left: 100px;
+    }
+    .heder ul li {
+        float: left;
+        list-style: none;
+        background-color: transparent;
+    }
+    .heder ul li:hover .subheder  {
+        display: inline;
+        position: absolute;
+        float: none;
+        margin-top: 150px;
+        margin-left: -400px;
+        background-color: transparent;
+    }
+    .subheder ul li:hover .subsubheder  {
+        display: inline;
+        position: absolute;
+        float: none;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .heder .subheder button:hover {
+        background-color: #88484f;
+        transform: scale(120%);
+        transition: 0,5s;
+        border-radius: 40px;
+    }
+    .subheder img {
+        max-width: 30px;
+        display: list-item;
+        position: absolute;
+        background-color: transparent;
+    }
+    .heder img {
+        max-width: 30px ;
+        padding-right: 20px;
+        background-color: transparent;
+    }
+    .heder button:hover {
+        background-color: #88484f;
+    }
+    .puh img{
+        max-width: 40px;
+        background-color: transparent;
+    }
+    .puh {
+        background-color: transparent;
+    }
