@@ -108,6 +108,8 @@ box-shadow: 5px 10px;
 }
 .pengumuman {
     font-size: 50px;
+    width: 1500px ;
+    height: auto ;
     padding: 5%;
 }
 .pengumuman h2 {
