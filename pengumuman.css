@@ -1,0 +1,130 @@
+.anying {
+    background-color: #607274 ;
+    width: 1500px;
+    height: 150px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.subheder {
+display: none;
+width: 400px;
+height: 600px;
+box-shadow: 5px 10px;
+}
+.subsubheder {
+    display: none;
+    box-shadow: 5px 10px;
+}
+.heder button{
+    width: 400px;
+    height: 150px;
+    background-color: #607274;
+    border: none;
+    border-bottom: #faeed183 4px solid;
+}
+.heder ul li a{
+    font-size: 45px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #FAEED1;
+    padding-top: 100px;
+}
+.heder ul li p{
+    font-size: 45px;
+    background-color: transparent;
+    text-decoration: none;
+    color: #FAEED1;
+}
+.heder {
+    background-color: #607274;
+    height: 150px;
+    margin-left: 100px;
+}
+.heder ul li {
+    float: left;
+    list-style: none;
+    background-color: transparent;
+}
+.heder ul li:hover .subheder  {
+    display: inline;
+    position: absolute;
+    float: none;
+    margin-top: 150px;
+    margin-left: -400px;
+    background-color: transparent;
+}
+.subheder ul li:hover .subsubheder  {
+    display: inline;
+    position: absolute;
+    float: none;
+    margin-top: 0;
+    margin-left: 0;
+}
+.heder .subheder button:hover {
+    background-color: #88484f;
+    transform: scale(120%);
+    transition: 0,5s;
+    border-radius: 40px;
+}
+.subheder img {
+    max-width: 30px;
+    display: list-item;
+    position: absolute;
+    background-color: transparent;
+}
+.heder img {
+    max-width: 30px ;
+    padding-right: 20px;
+    background-color: transparent;
+}
+.heder button:hover {
+    background-color: #88484f;
+}
+.puh img{
+    max-width: 40px;
+    background-color: transparent;
+}
+.puh {
+    background-color: transparent;
+}
+.head h2 {
+    font-size: 80px;
+    font-weight: lighter;
+    margin-left: 50px;
+    background-color: transparent;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+}
+.head {
+    width: 1500px;
+    height: 250px;
+    background-color: rgb(233, 233, 233);
+}
+.head span {
+    font-size: 150px;
+}
+.pengumuman {
+    font-size: 50px;
+    padding: 5%;
+}
+.pengumuman h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.pengumuman p {
+    text-indent: 60px;
+    padding-bottom: 50px;
+}
+.pengumuman button {
+    width: 500px;
+    height: 150px;
+}
+.pengumuman button {
+    font-size: 37px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

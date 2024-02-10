@@ -1,0 +1,13 @@
+.body {
+    width: 1500px;
+    height: 700px;
+    font-size: 50px;
+    padding-left: 60px;
+}
+.body p {
+    text-indent: 60px;
+}
+.body span {
+    font-weight: bold;
+    color: red;
+}
